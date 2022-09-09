@@ -176,7 +176,7 @@ function App() {
             </Typography>
 
             <div className='icon'>
-            <img alt='' className='icon2' src= {`./icons/${currentWeather.weather[0].icon}.png`}/>
+            <img alt='' className='icon2' src= {`../icons/${currentWeather.weather[0].icon}.png`}/>
             </div>
 
             <Typography gutterBottom variant="body2" component="h2" align = "center" className="cityTemp">
